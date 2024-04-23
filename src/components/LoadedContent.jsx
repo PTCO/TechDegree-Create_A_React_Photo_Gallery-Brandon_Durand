@@ -4,7 +4,7 @@ import Photo from "./Photo";
 import Gallery from "./Gallery";
 
 // API KEY
-import config from '../../config/config';
+import config from '../../node_modules/config/config';
 
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
