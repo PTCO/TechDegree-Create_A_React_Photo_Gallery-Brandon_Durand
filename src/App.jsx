@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Navigate, Route, Routes, useNavigate } from 'react-router-dom';
-import './App.css'
+import '../css/App.css'
 
 import Search from './components/Search';
 import NoResultsFound from './components/NoResultsFound';
