@@ -16,6 +16,7 @@ const LoadedContent = () => {
 
    const { query }  = useParams(); 
 
+   // API Search
    useEffect(()=> {
         (async()=>{
             await axios.get(

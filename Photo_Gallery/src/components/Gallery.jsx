@@ -5,6 +5,7 @@ const Gallery = ({ results }) => {
 
     const [ isLoading, setIsLoading ] = useState(true);
 
+    // Displays loading message until result
     useEffect(() => {
         setIsLoading(true);
         setTimeout(() => {
