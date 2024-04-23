@@ -4,7 +4,7 @@ import Photo from "./Photo";
 import Gallery from "./Gallery";
 
 // API KEY
-import config from '../config/config';
+import config from '../../config/config';
 
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
@@ -36,7 +36,7 @@ const LoadedContent = () => {
     if( results.length > 0){ 
         return (
             <>
-                <Gallery results={results}/>
+                <Gallery results={results} title={query}/>
             </>
         );
     }
